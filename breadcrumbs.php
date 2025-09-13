@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-function render_breadcrumbs(
+function get_breadcrumbs(
 	array  $breadcrumbs = [],
 	string $sep = '/',
 	string $sep_class = 'bc_sep',
